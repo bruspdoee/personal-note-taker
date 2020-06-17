@@ -1,8 +1,8 @@
 # Note Taker
 
-<img src="home.png">
-<br>
 <img src="savednotes.png">
+<br>
+<img src="home.png">
 <br>
 
 ## Description
