@@ -41,6 +41,8 @@ app.post("/api/notes", function (req, res) {
             return data; 
         })
         res.json(db); 
+
+        // function to refresh list 
     })
 });
 
@@ -60,6 +62,8 @@ app.delete("/api/notes/:id", function (req, res) {
             console.log("deleted"); 
         })
     }
+
+    // function to refresh list 
 }); 
 
 app.listen(PORT, () => {
